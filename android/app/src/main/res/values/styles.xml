@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/themeColor</item>
+        <!-- <item name="android:windowIsTranslucent">true</item> -->
+        <item name="android:colorControlNormal">#FFFFFF</item>
+        <!-- 声明Picker style. -->
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <!-- 声明Picker.Item style. -->
+        <!-- <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item> -->
+    </style>
+     <!-- Picker 样式 here. -->
+    <style name="SpinnerItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- Picker.Item 样式 here. -->
+    <!-- <style name="SpinnerDropDownItem" parent="Theme.AppCompat.Light.NoActionBar">
+    </style> -->
+    <style name="scrollbar_shape_style">
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+    </style>
+    <color name="themeColor">#191A2A</color>
+</resources>

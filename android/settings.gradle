@@ -1,0 +1,32 @@
+rootProject.name = 'newApp'
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+include ':react-native-file-provider'
+project(':react-native-file-provider').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-file-provider/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-svg/android')
+include ':react-native-local-barcode-recognizer'
+project(':react-native-local-barcode-recognizer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-local-barcode-recognizer/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-view-shot'
+project(':react-native-view-shot').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-view-shot/android')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':@react-native-community_async-storage'
+project(':@react-native-community_async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/async-storage/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+include ':app', ':react-native-webview-bridge'
+project(':react-native-webview-bridge').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-bridge/android')
+
+
+include ':app'

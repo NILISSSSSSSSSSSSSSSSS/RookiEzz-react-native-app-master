@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <files-path name="apkdownload" path="apk" />
+    <external-path name="Pictures" path="."/>
+    <external-path name="image" path="DCIM/Camera/" />
+    <root-path path="" name="camera_photos" />
+    <external-path  path="." name="Download"/>
+</paths>

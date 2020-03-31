@@ -1,0 +1,10 @@
+{
+  "ios": {
+    "name": "VOCD",
+    "displayName": "VOCD"
+  },
+  "android": {
+    "name": "newApp",
+    "displayName": "newApp"
+  }
+}

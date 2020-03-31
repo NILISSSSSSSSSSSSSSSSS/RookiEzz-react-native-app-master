@@ -1,0 +1,29 @@
+{
+  "avatar": {
+    "mine": "https://img2.woyaogexing.com/2019/05/15/58c7c8e2879247cca82b83def74e9e98!400x400.jpeg",
+    "others": "https://img2.woyaogexing.com/2019/05/15/5af09f59d8374d53b87b0913a8da067f!400x400.jpeg"
+  },
+  "nickname": "Winter",
+  "message": [
+    {
+      "content": "hello, world",
+      "role": "others"
+    },
+    {
+      "content": "hello, world",
+      "role": "me"
+    },
+    {
+      "content": "hello, world",
+      "role": "others"
+    },
+    {
+      "content": "hello, world",
+      "role": "others"
+    },
+    {
+      "content": "hello, world",
+      "role": "others"
+    }
+  ]
+}
